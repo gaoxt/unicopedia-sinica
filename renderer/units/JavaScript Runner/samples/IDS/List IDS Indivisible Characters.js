@@ -26,4 +26,4 @@ for (let character in characters)
     }
 }
 $.writeln ("Count:", indivisibleCharacters.length);
-$.writeln (indivisibleCharacters.join ("\n"));
+$.writeln (indivisibleCharacters.join (/\r?\n/));

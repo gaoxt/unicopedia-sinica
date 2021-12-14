@@ -250,7 +250,7 @@ module.exports.start = function (context)
         {
             lines.push (`Source: ${source}`);
         }
-        return lines.join ("\n");
+        return lines.join (/\r?\n/);
     }
     //
     const sources =
